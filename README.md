@@ -35,5 +35,8 @@ Additional notes:
 - Check the mass movement trajectories to ensure that the DEM and Landsat images are properly lined up at high elevations.  It's possible that they are not perfectly aligned, which can cause a prone area to fall down the wrong side of the ridge.  While this does not commonly occur, it's important to check.
 - The prone area files in the Matlab scripts are binary (1 = prone area, 0 = not prone)
 
+The 'N6_Lakes_AvalancheResults_Pt1km2.xls' is an excel file with data concerning the lake and the mass movement modeling output.  It has the following columns:
+- Fujita ID, N6 Lake ID, Longitude, Latitude, Altitude, Aspect, Area 2000, Area 2015, Perimeter 2015, All total avalanche Hit 10 m, Direct Total Avalanche Hit 10 m, Max Avalanche Size 10 m, All total avalanche Hit 30 m, Direct Total Avalanche Hit 30 m, Max Avalanche Size 30 m, All total avalanche Hit 50 m, Direct Total Avalanche Hit 50 m, Max Avalanche Size 50 m, All Total Landslide Hit 10 m, Direct Total Landslide Hit 10 m, All Total Landslide Hit Volume, Direct Total landslide Hit Volume.
+
 
 If you request, the "write_gdalfiles" function, i.e., please contact me as the scripts are too large to upload to github.  However, you should be able to replace the writing of the files with whatever functions you used to export geotiff's from Matlab.
